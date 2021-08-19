@@ -7,11 +7,11 @@
       </ul>
       <div>
         <label>Title:</label>
-        <input type="text" v-model="currentNoteParams.title" />
+        <input type="text" v-model="currentNoteParams.name" />
       </div>
       <div>
         <label>Content:</label>
-        <input type="text" v-model="currentNoteParams.chef" />
+        <input type="text" v-model="currentNoteParams.content" />
       </div>
       <input type="submit" value="Submit" />
       <button v-on:click="destroyNote()">Delete</button>
