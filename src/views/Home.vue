@@ -4,7 +4,11 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.home {
+  margin-top: 10%;
+}
+</style>
 
 <script>
 export default {
