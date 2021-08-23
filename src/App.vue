@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="sidebar" data-color="black" data-active-color="danger">
+    <div class="sidebar" data-color="black">
       <div class="logo">
         <a href="https://www.creative-tim.com" class="simple-text logo-mini">
           <!-- <div class="logo-image-small">
@@ -8,7 +8,7 @@
         </div> -->
           <!-- <p>CT</p> -->
         </a>
-        <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="/" class="simple-text logo-normal">
           Nota
           <!-- <div class="logo-image-big">
           <img src="../assets/img/logo-big.png">
@@ -17,22 +17,22 @@
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="active">
-            <a href="/home">
-              <i class="nc-icon nc-bank"></i>
+          <li>
+            <a href="/">
+              <!-- <i class="nc-icon nc-bank"></i> -->
               <p>Home</p>
             </a>
           </li>
           <li>
             <a href="/login">
-              <i class="nc-icon nc-diamond"></i>
+              <!-- <i class="nc-icon nc-diamond"></i> -->
               <p>Login</p>
             </a>
           </li>
           <li>
-            <a href="javascript:;">
-              <i class="nc-icon nc-pin-3"></i>
-              <p>Third Item</p>
+            <a href="/notes/new">
+              <!-- <i class="nc-icon nc-pin-3"></i> -->
+              <p>Notes</p>
             </a>
           </li>
         </ul>
@@ -100,13 +100,13 @@
     </div> -->
       <router-view />
       <div class="content">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-12">
-            <h3 class="description">Your content here</h3>
-          </div>
-        </div>
+            <h3 class="description">This is the content</h3> -->
+        <!-- </div> -->
+        <!-- </div> -->
       </div>
-      <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
+      <!-- <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
         <div class="container-fluid">
           <div class="row">
             <nav class="footer-nav">
@@ -125,7 +125,7 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
     </div>
   </div>
 </template>
