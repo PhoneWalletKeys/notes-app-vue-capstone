@@ -1,6 +1,9 @@
 <template>
-  <div class="home">
-    <h1>{{ message }}</h1>
+  <div id="app">
+    <div class="home">
+      <h1>{{ message }}</h1>
+      <img src="src/assets/bluenote.png" alt="StickyNote" />
+    </div>
   </div>
 </template>
 

@@ -24,15 +24,21 @@
             </a>
           </li>
           <li>
-            <a href="/login">
+            <a href="/notes/new">
               <!-- <i class="nc-icon nc-diamond"></i> -->
+              <p>Notes</p>
+            </a>
+          </li>
+          <li>
+            <a href="/login">
+              <!-- <i class="nc-icon nc-pin-3"></i> -->
               <p>Login</p>
             </a>
           </li>
           <li>
-            <a href="/notes/new">
+            <a href="/logout">
               <!-- <i class="nc-icon nc-pin-3"></i> -->
-              <p>Notes</p>
+              <p>Logout</p>
             </a>
           </li>
         </ul>

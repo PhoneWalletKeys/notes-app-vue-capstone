@@ -13,7 +13,7 @@
         <label>Password:</label>
         <input type="password" v-model="newSessionParams.password" />
       </div>
-      <router-link to="/signup"><input type="submit" value="Register" /></router-link>
+      <router-link to="/signup"><input type="submit" value="Sign Up" /></router-link>
       <input type="submit" value="Login" />
     </form>
   </div>
