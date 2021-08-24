@@ -2,14 +2,14 @@
   <div id="app">
     <div class="sidebar" data-color="black">
       <div class="logo">
-        <a href="https://www.creative-tim.com" class="simple-text logo-mini">
-          <!-- <div class="logo-image-small">
+        <!-- <a href="https://www.creative-tim.com" class="simple-text logo-mini"> -->
+        <!-- <div class="logo-image-small">
           <img src="./assets/img/logo-small.png">
         </div> -->
-          <!-- <p>CT</p> -->
-        </a>
+        <!-- <p>CT</p> -->
+        <!-- </a> -->
         <a href="/" class="simple-text logo-normal">
-          Nota
+          <h3>Nota</h3>
           <!-- <div class="logo-image-big">
           <img src="../assets/img/logo-big.png">
         </div> -->
@@ -105,13 +105,13 @@
       <router-link to="/notes/new">Create</router-link>
     </div> -->
       <router-view />
-      <div class="content">
-        <!-- <div class="row">
+      <!-- <div class="content"> -->
+      <!-- <div class="row">
           <div class="col-md-12">
             <h3 class="description">This is the content</h3> -->
-        <!-- </div> -->
-        <!-- </div> -->
-      </div>
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
       <!-- <footer class="footer" style="position: absolute; bottom: 0; width: -webkit-fill-available">
         <div class="container-fluid">
           <div class="row">
@@ -136,7 +136,12 @@
   </div>
 </template>
 
-<style></style>
+<style>
+.content {
+  background-color: clearColor;
+  background-image: url("/assets/bluenote.png");
+}
+</style>
 
 <script>
 export default {
