@@ -1,12 +1,20 @@
 <template>
-  <div>
+  <div class="notes-index">
+    <!-- <div class="container"> -->
     <div v-for="note in notes" :key="note.id">
-      <router-link v-bind:to="`/notes/${note.id}`">
-        <h2>Title: {{ note.name }}</h2>
-        <p>Content: {{ note.content }}</p>
-      </router-link>
+      <ul>
+        <li v-if="$parent.getUserId() == note.user_id">
+          <router-link v-bind:to="`/notes/${note.id}`">
+            <h2>{{ note.name }}</h2>
+            <p>{{ note.content }}</p>
+            <!-- <input type="submit" value="edit" /> -->
+          </router-link>
+        </li>
+      </ul>
+      <router-link to="/notes"><input type="submit" value="Back to all notes" /></router-link>
     </div>
   </div>
+  <!-- </div> -->
 </template>
 
 <style>

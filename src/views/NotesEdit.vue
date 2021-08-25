@@ -14,7 +14,7 @@
         <input type="text" v-model="currentNoteParams.content" />
       </div>
       <input type="submit" value="Submit" />
-      <button v-on:click="destroyNote()">Delete</button>
+      <input type="submit" v-on:click="destroyNote()" value="Delete" />
     </form>
   </div>
 </template>

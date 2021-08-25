@@ -24,46 +24,65 @@
           <a href="#">
             <h2>Title</h2>
             <input type="text" v-model="newNoteParams.name" />
-            <p>Body</p>
+            <p>Content</p>
             <input type="text" v-model="newNoteParams.content" />
+            <input type="submit" value="submit" />
           </a>
         </li>
         <li>
           <a href="#">
-            <h2>Title #2</h2>
-            <p>Text Content #2</p>
+            <h2>Title</h2>
+            <input type="text" />
+            <p>Content</p>
+            <input type="text" />
+            <input type="submit" value="submit" />
           </a>
         </li>
         <li>
           <a href="#">
-            <h2>Title #3</h2>
-            <p>Text Content #3</p>
+            <h2>Title</h2>
+            <input type="text" />
+            <p>Content</p>
+            <input type="text" />
+            <input type="submit" value="submit" />
+          </a>
+        </li>
+        <!-- <li>
+          <a href="#">
+            <h2>Title</h2>
+            <input type="text" v-model="newNoteParams.name" />
+            <p>Content</p>
+            <input type="text" v-model="newNoteParams.content" />
+            <input type="submit" value="submit" />
           </a>
         </li>
         <li>
           <a href="#">
-            <h2>Title #4</h2>
-            <p>Text Content #4</p>
+            <h2>Title</h2>
+            <input type="text" v-model="newNoteParams.name" />
+            <p>Content</p>
+            <input type="text" v-model="newNoteParams.content" />
+            <input type="submit" value="submit" />
           </a>
         </li>
         <li>
           <a href="#">
-            <h2>Title #5</h2>
-            <p>Text Content #5</p>
+            <h2>Title</h2>
+            <input type="text" v-model="newNoteParams.name" />
+            <p>Content</p>
+            <input type="text" v-model="newNoteParams.content" />
+            <input type="submit" value="submit" />
           </a>
-        </li>
-        <li>
-          <a href="#">
-            <h2>Title #6</h2>
-            <p>Text Content #6</p>
-          </a>
-        </li>
+        </li> -->
       </ul>
     </form>
   </div>
 </template>
 
 <style>
+form {
+  display: inline-block;
+}
 /* ul {
   justify-content: center;
   display: flex;
@@ -77,7 +96,7 @@ li {
   padding: 0;
 }
 body {
-  font-family: arial, sans-serif;
+  font-family: arial, helvetica, sans-serif;
   font-size: 100%;
   margin: 0em;
   background: #666;
@@ -124,7 +143,7 @@ ul li h2 {
   padding-bottom: 10px;
 }
 ul li p {
-  font-family: "Reenie Beanie", arial, sans-serif;
+  font-family: "Lucida Console", arial, monospace;
   font-size: 180%;
 }
 ul li:nth-child(even) a {
