@@ -6,26 +6,26 @@
         <li v-if="$parent.getUserId() == note.user_id">
           <router-link v-bind:to="`/notes/${note.id}`">
             <h2>{{ note.name }}</h2>
-            <p>{{ note.content }}</p>
+            <p2>{{ note.content }}</p2>
             <!-- <input type="submit" value="edit" /> -->
           </router-link>
         </li>
       </ul>
-      <router-link to="/notes"><input type="submit" value="Back to all notes" /></router-link>
+      <!-- <router-link to="/notes"><input type="submit" value="Back to all notes" /></router-link> -->
     </div>
   </div>
   <!-- </div> -->
 </template>
 
 <style>
-.card {
+/* .card {
   width: 50%;
 }
 .selected {
   color: white;
   background-color: red;
   transition: background-color 1s ease;
-}
+} */
 </style>
 
 <script>
