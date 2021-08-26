@@ -4,15 +4,15 @@
     <div v-for="note in notes" :key="note.id">
       <ul>
         <li v-if="$parent.getUserId() == note.user_id">
-          <router-link v-bind:to="`/notes/${note.id}`">
+          <router-link v-bind:to="`/notes/${note.id}/edit`">
             <h2>{{ note.name }}</h2>
             <p2>{{ note.content }}</p2>
-            <!-- <input type="submit" value="edit" /> -->
           </router-link>
         </li>
       </ul>
-      <!-- <router-link to="/notes"><input type="submit" value="Back to all notes" /></router-link> -->
+      <!-- <router-link to="notes/new"><input type="submit" value="Create More Notes!" /></router-link> -->
     </div>
+    <router-link to="notes/new"><input type="submit" value="Create More Notes!" /></router-link>
   </div>
   <!-- </div> -->
 </template>

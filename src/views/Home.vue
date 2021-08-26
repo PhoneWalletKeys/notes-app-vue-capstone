@@ -1,10 +1,16 @@
 <template>
   <div id="app">
-    <img src="../assets/holdingnote.jpeg" />
+    <img src="../assets/notebackground2.jpg" />
   </div>
 </template>
 
 <style>
+/* .container {
+  position: relative;
+} */
+/* .header-text {
+  position: absolute;
+} */
 * {
   margin: 0;
   padding: 0;

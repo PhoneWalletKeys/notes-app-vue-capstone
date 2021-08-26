@@ -139,7 +139,7 @@
 <style>
 .content {
   background-color: clearColor;
-  background-image: url("/assets/bluenote.png");
+  background-image: url("./assets/notebackground2.jpg");
 }
 </style>
 

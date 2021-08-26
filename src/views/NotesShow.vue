@@ -5,7 +5,7 @@
         <li v-if="$parent.getUserId() == note.user_id">
           <router-link v-bind:to="`/notes/${note.id}/edit`">
             <h2>{{ note.name }}</h2>
-            <p>{{ note.content }}</p>
+            <p2>{{ note.content }}</p2>
             <!-- <input type="submit" value="edit" /> -->
           </router-link>
         </li>
@@ -14,7 +14,7 @@
       <br />
       <br />
       <br />
-      <router-link to="/notes"><input type="submit" value="Back to all notes" /></router-link>
+      <ro<input type="submit" value="Back to all notes" />
     </div>
   </div>
 </template>
