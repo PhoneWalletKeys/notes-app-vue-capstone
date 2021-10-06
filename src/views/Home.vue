@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="../assets/notebackground2.jpg" />
+    <img src="../assets/stickynotebackground.jpg" />
   </div>
 </template>
 
@@ -18,7 +18,7 @@
 body {
   font-family: arial, sans-serif;
   font-size: 100%;
-  margin: 0em;
+  margin: 1em;
   background: #666;
   color: black;
   text-align: center;
